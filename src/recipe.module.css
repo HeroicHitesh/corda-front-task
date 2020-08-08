@@ -1,0 +1,22 @@
+.recipe {
+  display: flex;
+  flex-wrap: wrap;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-block-start: 50px;
+}
+
+.recipe:hover {
+  transform: scale(1.05);
+}
+.title {
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.badge {
+  cursor: pointer;
+  text-transform: capitalize;
+}

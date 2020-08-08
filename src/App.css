@@ -1,0 +1,31 @@
+.App {
+  min-height: 100vh;
+  background-image: "/Assets/Images/Illustration2.png";
+  background-position: "top right";
+  background-color: rgb(230, 230, 230);
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  image: "/Assets/Icons/Icon feather-search.png";
+}
+
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
