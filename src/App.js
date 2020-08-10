@@ -12,7 +12,7 @@ const App = () => {
   }, [query]);
 
   const getRecipes = async () => {
-    const response = await fetch("http://starlord.hackerearth.com/recipe");
+    const response = await fetch("https://starlord.hackerearth.com/recipe");
     const data = await response.json();
     setRecipes(data);
   };
